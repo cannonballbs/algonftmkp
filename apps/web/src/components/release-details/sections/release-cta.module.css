@@ -1,0 +1,19 @@
+.root {
+  @apply p-8 bg-white border-t border-base-gray-border;
+}
+
+.root button {
+  @apply relative max-w-xs mx-auto;
+}
+
+.loginPrompt {
+  @apply text-center;
+}
+
+.actionNotAllowed {
+  @apply text-center text-base-errorRed;
+}
+
+.tealButton {
+  @apply bg-base-teal;
+}
